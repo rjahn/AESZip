@@ -4,11 +4,11 @@ import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 
-import junit.framework.Assert;
+import org.junit.Assert;
+import org.junit.Test;
+
 import net.lingala.zip4j.model.ZipParameters;
 import net.lingala.zip4j.util.Zip4jConstants;
-
-import org.junit.Test;
 
 public class StreamEntryTest
 {

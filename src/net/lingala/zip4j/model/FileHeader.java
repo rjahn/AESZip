@@ -285,9 +285,6 @@ public class FileHeader {
 			throw new ZipException("Invalid output path");
 		}
 		
-		if (this == null) {
-			throw new ZipException("invalid file header");
-		}
 		Unzip unzip = new Unzip(zipModel);
 		unzip.extractFile(this, outPath, unzipParameters, newFileName, progressMonitor, runInThread);
 	}
